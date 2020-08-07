@@ -1,0 +1,51 @@
+.nav-link:hover {
+  background-color: grey;
+}
+
+.warna-card-bg1 {
+  box-shadow: 2px 5px 5px black;
+}
+
+.warna-card1 {
+  background-image: radial-gradient(
+    circle farthest-corner at left,
+    rgba(166, 255, 0, 0.637),
+    rgb(66, 165, 63)
+  );
+  border-radius: 5%;
+}
+.warna-card2 {
+  background-image: radial-gradient(
+    circle farthest-corner at right,
+    rgb(177, 67, 144),
+    rgb(241, 162, 15)
+  );
+  border-radius: 5%;
+}
+.warna-card3 {
+  background-image: radial-gradient(
+    circle farthest-corner at left,
+    rgb(51, 219, 191),
+    rgb(229, 205, 160)
+  );
+  border-radius: 5%;
+}
+
+.card-icon {
+  position: absolute;
+  z-index: 0;
+  top: 35px;
+  right: 4px;
+  font-size: 65px;
+  opacity: 0.7;
+}
+
+.bg-instagram {
+  background-image: radial-gradient(
+    circle farthest-corner at left,
+    rgb(219, 51, 183),
+    rgb(241, 144, 233)
+  );
+
+  border-radius: 5%;
+}

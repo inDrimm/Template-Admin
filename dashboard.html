@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="font/css/all.min.css">
+
+    <title>Dashboard</title>
+  </head>
+
+  <body>
+    <!-- NAvbar -->
+    <nav class="navbar navbar-expand-lg navbar-light warna-card3 fixed-top">
+      <a class="navbar-brand" href="#">Selamat Datang Admin | <b>Universitas</b></a>
+        <form class="form-inline my-2 my-lg-0 ml-auto">
+          <input
+            class="form-control mr-sm-2"
+            type="search"
+            placeholder="Search"
+            aria-label="Search"
+          />
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
+            Search
+          </button>
+        </form>
+
+        <!-- Icon -->
+        <div class="icon ml-4">
+          <h5>
+            <li class="fas fa-envelope mr-3" data-toggle="tooltip" title="Inbox"></li>
+            <li class="fas fa-bell mr-3" data-toggle="tooltip" title="Notification"></li>
+            <li class="fas fa-sign-out-alt mr-3" data-toggle="tooltip" title="Sign Out"></li>
+          </h5>
+        </div>
+        <!-- End Icon -->
+
+      </div>
+    </nav>
+    <!-- ENd Navbar -->
+
+    <div class="row no-gutters mt-5"><!-- no gutters agar tidak ada jarak antara col-md-2 dan 10-->
+      <!-- sidebar menu -->
+      <div class="col-md-2 bg-dark ml-2 mt-5 pr-4 pt-2 pl-1">
+        <ul class="nav flex-column ml-2 mb-2">
+          <li class="nav-item">
+            <a class="nav-link active text-white" href="dashboard.html"><i class="fas fa-tachometer-alt pr-2"></i>Dashboard</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="mahasiswa.html"><i class="fas fa-user-graduate pr-2"></i>Daftar Mahasiswa</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="dosen.html"><i class="fas fa-chalkboard-teacher pr-2"></i>Daftar Dosen</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="pegawai.html"><i class="fas fa-users pr-2"></i>Daftar Pegawai</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="jadwal.html"><i class="far fa-calendar-check pr-2"></i>Jadwal Kuliah</a><hr class="bg-secondary">
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="nilai.html"><i class="fas fa-book-open pr-2"></i>Nilai Mahasiswa</a><hr class="bg-secondary">
+          </li>
+        </ul>
+      </div>
+      <!-- end sidebar -->
+
+      <!-- isi halaman -->
+      <div class="col-md-9 pl-5 mt-5">
+        <h3><i class="fas fa-tachometer-alt pr-2"></i>DASHBOARD </h3><hr>        
+        <div class="row">
+
+          <!-- Card Jumlah Mahasiswa -->
+          <div class="card ml-3 mt-3 border-0" style="width: 18rem;">
+            <div class="card-body warna-card1 warna-card-bg1">
+              <div class="card-icon">
+                <i class="fas fa-user-graduate pr-2"></i>
+              </div>
+              <h5 class="card-title">JUMLAH MAHASISWA</h5>
+              <div class="display-4"><b>2.500</b></div>
+              <a href=""><p class="card-text">Lihat Detail <i class="fas fa-external-link-alt ml-2"></i></p></a>
+            </div>
+          </div>
+          <!-- End Card Jumlah Mahasiswa -->
+
+          <!-- Card Jumlah Mahasiswa -->
+          <div class="card ml-3 mt-3 border-0" style="width: 18rem;">
+            <div class="card-body warna-card2 warna-card-bg1">
+              <div class="card-icon">
+                <i class="fas fa-chalkboard-teacher pr-2"></i>
+              </div>
+              <h5 class="card-title">JUMLAH DOSEN</h5>
+              <div class="display-4"><b>1.500</b></div>
+              <a href="">
+                <p class="card-text">Lihat Detail <i class="fas fa-external-link-alt ml-2"></i></p>
+              </a>
+            </div>
+          </div>
+          <!-- End Card Jumlah Mahasiswa -->
+
+          <!-- Card Jumlah Mahasiswa -->
+          <div class="card ml-3 mt-3 border-0" style="width: 18rem;">
+            <div class="card-body warna-card3 warna-card-bg1">
+              <div class="card-icon">
+                <i class="fas fa-users pr-2"></i>
+              </div>
+              <h5 class="card-title">JUMLAH PEGAWAI</h5>
+              <div class="display-4"><b>400</b></div>
+              <a href="">
+                <p class="card-text">Lihat Detail <i class="fas fa-external-link-alt ml-2"></i></p>
+              </a>
+            </div>
+          </div>
+          <!-- End Card Jumlah Mahasiswa -->
+        </div>
+
+        <div class="row">
+          <div class="card ml-3 mt-4 text-center" style="width: 10rem;">
+            <h2 class="card-header bg-instagram"><i class="fab fa-instagram"></i></h2>
+            <div class="card-body warna-card-bg1">
+              <h5 class="card-title">INSTAGRAM</h5>
+              <a href="https://www.instagram.com/?hl=id" target="_blank" class="btn bg-success">FOLLOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- end isi halaamn -->
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
+    <script type="text/JavaScript" src="script.js"></script>
+  </body>
+</html>
